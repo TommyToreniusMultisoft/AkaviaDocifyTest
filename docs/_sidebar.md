@@ -1,5 +1,33 @@
 - Integrationer
-  - [Integrationer-med-Billecta.md](Integrationer\Integrationer-med-Billecta.md) 
-- Salesforce
-  -  [Hämta_data_ifrån-Salesforce_och-skapa-en-fil.md](Salesforce\Hämta_data_ifrån-Salesforce_och-skapa-en-fil.md) 
+  -  A-kassa
+      -  [08-UT A-Kassa direktanslutning](Integrationer\A-Kassa\08-UT_A-Kassa_direktanslutning.md) 
+      -  [10-UT A-Kassa SINK](Integrationer\A-Kassa\10-UT_A-Kassa_SINK.md) 
+      -  [12-IN A-kassa återrapport](Integrationer\A-Kassa\12-IN_A-kassa_återrapport.md) 
+  - Billecta
+    -  [Integrationer med Billecta](Integrationer\Billecta\Integrationer-med-Billecta.md) 
+    -  [CreditorPublicId och ProductPublicId](Integrationer\Billecta\CreditorPublicId-och-ProductPublicId.md) 
+    -  [32-IN Sökbar information i Salesforce](Integrationer\Billecta\32-IN-Sökbar-information-i-Salesforce.md) 
+  - Folksam
+    - [02-UT Försäkringsbolag](Integrationer\Folksam\02-UT-Försäkringsbolag.md) 
+  -  Saco
+      - [03-UT Medlemsstatistik](Integrationer\Saco\03-UT-Medlemsstatistik.md) 
+- Guider
+  -  [Lägg upp en Integration](Guider\Lägg-upp-en-Integration.md) 
+- Demo
+  - [2020-11-19](Demo\Demo_2020-11-19.md)
 
+---
+
+- Salesforce
+  -  [Hämta data ifrån Salesforce och skapa en fil](Salesforce\Hämta_data_ifrån-Salesforce_och-skapa-en-fil.md) 
+  - [Workbench](Salesforce\Workbench.md)
+  - [SOQL och dess begränsningar](Salesforce\SOQL-och-dess-begränsningar.md)
+  - [Upsert](Salesforce\Upsert.md) 
+  - [Partner.wsdl](Salesforce\PartnerWsdl.md) 
+- Softadmin
+  -  [Överblick](Softadmin\Överblick.md) 
+  -  [Integrationstyper](Softadmin\Integrationstyper.md) 
+  -  [Integrationssteg](Softadmin\Integrationssteg.md) 
+  -  [Förväntade filer](Softadmin\Förväntade-filer.md) 
+  -  [Stegtyp](Softadmin\Stegtyp.md) 
+  -  [Valideringsprocar](Softadmin\Valideringsprocar.md) 

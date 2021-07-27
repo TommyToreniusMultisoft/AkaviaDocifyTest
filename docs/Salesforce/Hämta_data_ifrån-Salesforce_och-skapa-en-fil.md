@@ -15,7 +15,7 @@ I det enklaste scenariot så behövs det 3 steg. Men bara två nya procar. Oftas
 
  [Workbench](Salesforce\Workbench.md) är din bästa vän för att verifiera att du har en korrekt query.
 
-Ta fram queryn tar allt från 10min för att Akavia har gjort ett bra underarbete till flera timmar för att det inte fungerar som Akavia  har tänkt. Mer komplicerade querys kan också ta lite trail and error tid pga SOQL.
+Ta fram queryn tar allt från 10min för att Akavia har gjort ett bra underarbete till flera timmar för att det inte fungerar som Akavia  har tänkt. Mer komplicerade querys kan också ta lite trial and error tid pga SOQL.
 
 ### Vilken data behöver vi hämta?
 
@@ -147,7 +147,7 @@ WHERE
 DELETE FROM #QueryResult WHERE Age__c >= 65.0;
 ```
 
-Slutligen en insert till tabellen Akassan.MemberMatching
+Slutligen en insert till tabellen `Akassan.MemberMatching`
 
 ```sql
 INSERT INTO AKassan.MemberMatching
@@ -254,7 +254,9 @@ Lägg till som ett steg i integrationen.
 
 ## Skapa fil
 
-Första steget är att lägga upp en inställning för att det ska finnas en fil.![image-20201222154048810](Untitled.assets/image-20201222154048810.png)
+Första steget är att lägga upp en inställning för att det ska finnas en fil.
+
+![image-20201222154048810](Untitled.assets/image-20201222154048810.png)
 
 Nästa steg blir att fylla en temptabell med den data som ska finnas i filen. I det här fallet är det en fil där varje kolumn har ett bestämt antal tecken. Därför är alla datatyper **char**, för då säkerställer vi att det blir massa mellanslag automatiskt för att fylla ut.
 
@@ -399,7 +401,9 @@ Ta fram info om filen som förväntas att skapas utifrån dess referenskod. Sät
 		@Filename = @Filename;
 ```
 
-Lägg upp procen som ett nytt steg.![image-20201222160346980](Untitled.assets/image-20201222160346980.png)
+Lägg upp procen som ett nytt steg.
+
+![image-20201222160346980](Untitled.assets/image-20201222160346980.png)
 
 ## Skicka fil
 

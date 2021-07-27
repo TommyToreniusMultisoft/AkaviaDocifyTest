@@ -12,7 +12,11 @@ Börja med att välja infall du ska logga in i Prod eller Sandbox (stage)
 
 ## Info: Standard & Custom Objects
 
+
+
 ![image-20201218141808005](Workbench.assets/image-20201218141808005.png)
+
+
 
 Här kan du få fram information om alla object (tabeller) som finns i Salesfoce.
 
@@ -22,6 +26,9 @@ Alla fält som slutar på **__c** är customfält som har lagts till för Akavia
 
 ## Queries: SOQL Query
 
+
+
+
 ![image-20201218142405115](Workbench.assets/image-20201218142405115.png)
 
 Användbar av två anledningar:
@@ -30,6 +37,4 @@ Användbar av två anledningar:
 2. Du kan skriva din helt egna SOQL query och testa ifall koden kan parsas och se vilket resultat du får
 
 
-
-![image-20201218141550452](image-20201218141550452.png)
 

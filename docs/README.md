@@ -1,7 +1,5 @@
-# Headline
+# Dokumentation
 
-> An awesome project.
+Välkommen!
 
-?> ?
-
-!> !
+[_sidebar.md](_sidebar.md ':include') 
